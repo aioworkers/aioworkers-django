@@ -8,6 +8,7 @@ version = __import__('aioworkers_django').__version__
 
 requirements = [
     'aioworkers',
+    'aioworkers-orm',
 ]
 
 test_requirements = [

@@ -4,17 +4,23 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
-aioworkers = "*"
+aioworkers-orm = "*"
 django = "*"
+aioworkers = "==0.13.0"
+databases = "*"
 
 [dev-packages]
-
 pytest = "*"
+pyyaml = "*"
+ipython = "*"
+aiosqlite = "*"
 pytest-flake8 = "*"
+pytest-django = "*"
 pytest-aioworkers = "*"
 pytest-runner = "*"
 flake8-isort = "*"
+pytest-pythonpath = "*"
+isort = "==4.3.20"
 
 [requires]
 python_version = "3.7"
