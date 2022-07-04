@@ -20,7 +20,7 @@ pytest-aioworkers = "*"
 pytest-runner = "*"
 flake8-isort = "*"
 pytest-pythonpath = "*"
-isort = "==4.3.20"
+isort = "==5.10.1"
 
 [requires]
 python_version = "3.7"
